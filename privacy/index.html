@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Integritetspolicy för Nomi, familjeplaneraren. Privacy policy for Nomi.">
+<title>Nomi integritetspolicy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; }
+
+  /* Layout: one reading column, Swedish then English, Nomi's cream ground and field green. */
+  :root {
+    --ground: #E9E5D6;
+    --card: #FBFAF3;
+    --ink: #14291E;
+    --ink-strong: #1B3A2A;
+    --muted: #5F7366;
+    --rule: #C9C6B4;
+    --dot: #B5622F;
+    --mark: #F3E2C4;
+    --serif: "Instrument Serif", "Iowan Old Style", Georgia, serif;
+    --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #1E3126; --card: #263D30; --ink: #F4F2E7; --ink-strong: #F4F2E7;
+      --muted: #A9BFAF; --rule: #3F5848; --dot: #E5B98A; --mark: #4A4330;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #1E3126; --card: #263D30; --ink: #F4F2E7; --ink-strong: #F4F2E7;
+    --muted: #A9BFAF; --rule: #3F5848; --dot: #E5B98A; --mark: #4A4330;
+    color-scheme: dark;
+  }
+
+  body { background: var(--ground); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.6; }
+  .page { max-width: 42rem; margin: 0 auto; padding-inline: 20px; padding-block: 40px 64px; display: grid; gap: 40px; }
+
+  header { display: grid; gap: 14px; }
+  .wordmark { text-decoration: none; display: inline-block; width: max-content; font-family: var(--serif); font-size: 30px; line-height: 1; color: var(--ink-strong); letter-spacing: -0.01em; }
+  .wordmark span { color: var(--dot); }
+  .langs { display: flex; flex-wrap: wrap; gap: 8px; }
+  .langs a { font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-strong); text-decoration: none; border: 1px solid var(--rule); border-radius: 999px; padding: 6px 14px; }
+  .langs a:hover, .langs a:focus-visible { background: var(--card); outline: none; }
+  .langs a:focus-visible { box-shadow: 0 0 0 2px var(--ink-strong); }
+
+  article { background: var(--card); border-radius: 18px; padding-inline: clamp(20px, 5vw, 40px); padding-block: 32px 36px; display: grid; gap: 22px; min-width: 0; }
+  h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(34px, 7vw, 44px); line-height: 1.05; margin: 0; text-wrap: balance; color: var(--ink-strong); }
+  .meta { margin: -10px 0 0; color: var(--muted); font-size: 14px; }
+  h2 { font-family: var(--serif); font-weight: 400; font-size: 25px; line-height: 1.2; margin: 10px 0 -8px; text-wrap: balance; color: var(--ink-strong); }
+  p, ul { margin: 0; max-width: 65ch; }
+  ul { padding-left: 1.2em; display: grid; gap: 8px; }
+  li::marker { color: var(--dot); }
+  strong { font-weight: 600; }
+  .fill { background: var(--mark); border-radius: 4px; padding: 0 4px; white-space: nowrap; }
+  a { color: var(--ink-strong); }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 4px 0 0; }
+  footer { color: var(--muted); font-size: 13px; text-align: left; }
+  @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <a class="wordmark" href="/">nomi<span>.</span></a>
+    <nav class="langs" aria-label="Språk / Language">
+      <a href="#sv">Svenska</a>
+      <a href="#en">English</a>
+    </nav>
+  </header>
+
+  <article id="sv" lang="sv">
+    <h1>Integritetspolicy</h1>
+    <p class="meta">Gäller från 13 oktober 2026</p>
+
+    <p>Nomi är en gemensam planerare för hushållet. Här beskriver vi vilka uppgifter appen sparar, varför vi sparar dem och vad du kan göra med dem.</p>
+
+    <h2>Vem som ansvarar</h2>
+    <p>Jonatan Berko är personuppgiftsansvarig för Nomi. Du når oss på support@nomi.house.</p>
+
+    <h2>Vilka uppgifter vi sparar</h2>
+    <ul>
+      <li><strong>Konto.</strong> När du loggar in med Apple får vi ett användar-ID och din e-postadress. Om du har valt att dölja din adress är det en vidarebefordringsadress från Apple. Vi får aldrig ditt lösenord och använder inte namnet på ditt Apple-ID.</li>
+      <li><strong>Namn.</strong> Förnamnet du själv skriver in och namnen du ger andra i hushållet, till exempel barn eller husdjur.</li>
+      <li><strong>Hushållets innehåll.</strong> Hushållets namn och allt ni lägger in: uppgifter, händelser och påminnelser med text, datum, tid, upprepning och vilka det gäller.</li>
+      <li><strong>Inbjudningar.</strong> Koderna ni skapar för att bjuda in någon och när en kod används. Felaktiga kodförsök loggas på ditt konto så att ingen kan gissa sig in i ett hushåll.</li>
+    </ul>
+
+    <h2>Det vi inte samlar in</h2>
+    <ul>
+      <li>Ingen spårning, ingen reklam och inga verktyg för statistik eller analys.</li>
+      <li>När du talar in något sker taligenkänningen på telefonen. Ljudet sparas inte och lämnar aldrig telefonen. Bara texten sparas, och först när du själv skickar den.</li>
+      <li>Vi säljer inte dina uppgifter och lämnar inte ut dem till andra för deras egna syften.</li>
+    </ul>
+
+    <h2>Varför vi sparar uppgifterna</h2>
+    <p>Uppgifterna används bara för att Nomi ska fungera: för att logga in dig, visa hushållets saker för dem som är med i hushållet och påminna dig i tid. Den rättsliga grunden är att vi fullgör vårt avtal med dig, det vill säga levererar tjänsten du har valt att använda (artikel 6.1 b i GDPR).</p>
+
+    <h2>Vem som ser vad</h2>
+    <p>Allt i ett hushåll syns för alla i hushållet som har ett konto. Ingen utanför hushållet kan se det. Det skyddet ligger i databasen, inte bara i appen.</p>
+
+    <h2>Var uppgifterna lagras</h2>
+    <ul>
+      <li>Konton och hushållets innehåll lagras hos Supabase på servrar i Stockholm, inom EU. Supabase behandlar uppgifterna för vår räkning som personuppgiftsbiträde.</li>
+      <li>Inloggningen sker genom Apple.</li>
+      <li>Påminnelser skapas på telefonen och skickas inte via någon server. Inställningar som påminnelser och vad som visas på Hem sparas bara på telefonen.</li>
+    </ul>
+
+    <h2>Hur länge vi sparar dem</h2>
+    <ul>
+      <li>Saker du tar bort raderas helt efter 30 dagar.</li>
+      <li>När den sista personen med konto lämnar ett hushåll raderas hushållet och allt innehåll direkt.</li>
+      <li>Ditt konto finns kvar tills du ber oss radera det. Skriv till support@nomi.house så raderar vi kontot och uppgifterna som hör till det.</li>
+    </ul>
+
+    <h2>Dina rättigheter</h2>
+    <p>Du har rätt att få veta vilka uppgifter vi har om dig och att få dem rättade eller raderade. Du kan också begära en kopia i ett format som går att läsa maskinellt, och invända mot hur vi använder dem. Kontakta oss på support@nomi.house. Om du tycker att vi hanterar dina uppgifter fel kan du klaga hos Integritetsskyddsmyndigheten (IMY), <a href="https://www.imy.se" rel="noopener">imy.se</a>.</p>
+
+    <h2>Barn</h2>
+    <p>Nomi är gjort för vuxna som planerar för sitt hushåll. Föräldrar kan lägga in barns namn och aktiviteter, men barn behöver inget eget konto.</p>
+
+    <h2>Betatest via TestFlight</h2>
+    <p>Under betatestet samlar Apple in kraschrapporter och den feedback du väljer att skicka via TestFlight, enligt Apples egen integritetspolicy. Vi får se den informationen och använder den bara för att förbättra appen.</p>
+
+    <h2>Ändringar</h2>
+    <p>Om policyn ändras uppdaterar vi den här sidan och datumet högst upp.</p>
+  </article>
+
+  <article id="en" lang="en">
+    <h1>Privacy policy</h1>
+    <p class="meta">Effective 13 October 2026</p>
+
+    <p>Nomi is a shared planner for your household. This page explains what the app stores, why, and what you can do about it.</p>
+
+    <h2>Who is responsible</h2>
+    <p>Jonatan Berko is the data controller for Nomi. You can reach us at support@nomi.house.</p>
+
+    <h2>What we store</h2>
+    <ul>
+      <li><strong>Account.</strong> When you sign in with Apple we receive a user ID and your email address. If you chose to hide your address, it is a relay address from Apple. We never receive your password, and we don't use the name on your Apple ID.</li>
+      <li><strong>Names.</strong> The first name you type for yourself and the names you give other people in your household, such as children or pets.</li>
+      <li><strong>Household content.</strong> The household's name and everything you add: tasks, events and reminders with their text, date, time, repeat rule and who they involve.</li>
+      <li><strong>Invitations.</strong> The codes you create to invite someone and when a code is used. Wrong code attempts are logged against your account so nobody can guess their way into a household.</li>
+    </ul>
+
+    <h2>What we don't collect</h2>
+    <ul>
+      <li>No tracking, no ads, and no analytics or statistics tools.</li>
+      <li>When you dictate, speech recognition runs on your phone. The audio is not stored and never leaves the phone. Only the text is saved, and only when you send it yourself.</li>
+      <li>We don't sell your data or share it with anyone for their own purposes.</li>
+    </ul>
+
+    <h2>Why we store it</h2>
+    <p>Your data is used only to make Nomi work: to sign you in, to show your household's items to the people in your household, and to remind you on time. The legal basis is performing our agreement with you, that is, providing the service you chose to use (Article 6(1)(b) GDPR).</p>
+
+    <h2>Who can see what</h2>
+    <p>Everything in a household is visible to every member of that household who has an account. Nobody outside the household can see it. This protection is enforced in the database, not only in the app.</p>
+
+    <h2>Where it is stored</h2>
+    <ul>
+      <li>Accounts and household content are stored with Supabase on servers in Stockholm, in the EU. Supabase processes the data on our behalf as a data processor.</li>
+      <li>Sign-in goes through Apple.</li>
+      <li>Reminders are created on your phone and are not sent through any server. Settings such as reminders and what Home shows are stored only on your phone.</li>
+    </ul>
+
+    <h2>How long we keep it</h2>
+    <ul>
+      <li>Items you delete are permanently erased after 30 days.</li>
+      <li>When the last person with an account leaves a household, the household and everything in it are deleted immediately.</li>
+      <li>Your account stays until you ask us to delete it. Write to support@nomi.house and we will delete your account and the data that belongs to it.</li>
+    </ul>
+
+    <h2>Your rights</h2>
+    <p>You have the right to know what data we hold about you and to have it corrected or deleted. You can also ask for a copy in a machine-readable format, and object to how we use it. Contact us at support@nomi.house. If you think we handle your data wrongly, you can complain to the Swedish Authority for Privacy Protection (IMY), <a href="https://www.imy.se/en/" rel="noopener">imy.se</a>.</p>
+
+    <h2>Children</h2>
+    <p>Nomi is made for adults who plan for their household. Parents can add their children's names and activities, but children don't need an account of their own.</p>
+
+    <h2>Beta testing with TestFlight</h2>
+    <p>During the beta, Apple collects crash reports and any feedback you choose to send through TestFlight, under Apple's own privacy policy. We can see that information and use it only to improve the app.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, we will update this page and the date at the top.</p>
+  </article>
+
+  <footer>
+    <hr>
+    <p>Nomi · support@nomi.house</p>
+  </footer>
+</div>
+</body>
+</html>
